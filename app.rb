@@ -6,7 +6,7 @@ class App < Sinatra::Base
     params.inspect
     erb :team
   end
-  
+
     get '/team' do
       erb :team
     end
